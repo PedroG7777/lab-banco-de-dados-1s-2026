@@ -1,0 +1,12 @@
+USE biblioteca_pessoal_1s2026;
+
+CREATE TABLE Usuario (
+      id_usuario INT auto_increment primary key,
+      nome VARCHAR(255) not null,
+      email varchar(255) not null unique,
+      data_cadastro date not null
+      
+      
+);
+
+show tables;
